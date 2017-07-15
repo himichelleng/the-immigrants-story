@@ -1,8 +1,19 @@
 body {
   font-size: 15px;
-  font-family: "franklin-gothic-urw",sans-serif !important;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: "franklin-gothic-urw-con-sc",sans-serif !important;
+}
+
+p{
+  font-family: "franklin-gothic-urw",sans-serif !important;
+}
+
+span.subtitle{
+  font-family: "franklin-gothic-urw-con-sc",sans-serif;
 }
 
 a {
@@ -16,6 +27,15 @@ a {
 .header{
 	background-color: #022140;
   margin-bottom: 10px;
+}
+
+.footer{
+  background-color: #022140;
+}
+
+.footer p{
+  margin: 10px 0;
+  color: #fff;
 }
 
 .tagline{
