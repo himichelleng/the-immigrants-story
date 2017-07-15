@@ -13,18 +13,15 @@ $(document).ready(function () {
     //circleColor: use @default
     data: {
       items: [
-        {text: "Chocolate", count: "4"},
-        {text: "Mint Chocolate Chip", count: "2"},
-        {text: "Butter Pecan", count: "2"},
-        {text: "Pistacchio", count: "1"},
-        {text: "Cookie Dough", count: "1"},
-        {text: "Vanilla", count: "2"},
-        {text: "Java Chip", count: "1"},
-        {text: "Oreo Ice Cream", count: "1"},
-        {text: "Caramel Cone", count: "1"},
-        {text: "Peach", count: "1"},
-        {text: "Chocolate Chip", count: "1"},
-        {text: "Something Weird!", count: "1"}
+        {text: "To start/run my own company", count: "4"},
+        {text: "To help others", count: "4"},
+        {text: "To be a director and Oscar winner", count: "1"},
+        {text: "To be President", count: "1"},
+        {text: "To go to Mars", count: "1"},
+        {text: "To pass immigration reform", count: "1"},
+        {text: "To take a shower", count: "1"},
+        {text: "To get a job", count: "1"},
+        {text: "Other", count: "4"}
       ],
       eval: function (item) {return item.count;},
       classed: function (item) {return item.text.split(" ").join("");}

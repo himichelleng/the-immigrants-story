@@ -14,14 +14,8 @@
 	            {'value': Date.parse(1888)},
 	            {'value': Date.parse(1830)},
 	            {'value': Date.parse(2000)},
-	            {'value': Date.parse(2001)},
-	            {'value': Date.parse(2001)},
-	            {'value': Date.parse(2001)},
-	            {'value': Date.parse(2001)},
-	            {'value': Date.parse(2001)},
-	            {'value': Date.parse(2001)},
-	            {'value': Date.parse(2001)},
-	            {'value': Date.parse(2001)}
+	            {'value': Date.parse(1885)},
+	            {'value': Date.parse(1915)}
 	            ];
 
 	var brushEnabled = true;
