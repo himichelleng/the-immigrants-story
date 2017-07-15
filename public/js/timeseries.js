@@ -99,12 +99,12 @@
 
         var xFormat, yFormat;
         if (lessThanDay(padding.pad)) {
-            xFormat = "%H:%M";
-            yFormat = "%m/%d/%y";
+            xFormat = "";
+            yFormat = "%Y";
             y.domain(d3.extent([padding.minDate]));
         } else {
-            xFormat = "%m/%d/%y";
-            yFormat = "%H:%M";
+            xFormat = "%Y";
+            yFormat = "";
             var start = new Date(2012, 0, 1, 0, 0, 0, 0).getTime();
             var stop = new Date(2012, 0, 1, 23, 59, 59, 59).getTime();
             y.domain(d3.extent([start, stop]));
