@@ -3,7 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.name{
+  color: #F91642;
+}
 h1 {
   font-family: "franklin-gothic-urw-con-sc",sans-serif !important;
 }
