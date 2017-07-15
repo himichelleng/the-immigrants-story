@@ -1,6 +1,6 @@
 body {
   font-size: 15px;
-  font-family: "franklin-gothic-urw",sans-serif;
+  font-family: "franklin-gothic-urw",sans-serif !important;
   margin: 0;
   padding: 0;
 }
@@ -13,18 +13,42 @@ a {
 	 height: 80px;
 }
 
-nav{
+.header{
 	background-color: #022140;
+  margin-bottom: 10px;
+}
+
+.tagline{
+  height: auto;
+  margin: 10px 0;
+  padding: 0 16px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 7px;
+  color: #fff;
+}
+
+.tagline p{
+  margin: 30px 0 0;
 }
 
 .portrait-card{
 	height: 400px;
+  overflow: hidden;
 }
 
 .portrait-card img{
 	width: 100%;
 	height: auto;
     opacity: 0.5;
+}
+
+nav a{
+  margin: 50px 0 0;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 20px;
+  display: inline-block;
 }
 
 .profile-card{

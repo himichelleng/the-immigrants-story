@@ -13,12 +13,18 @@ html
 		script(src='js/bootstrap.min.js')
 	body
 		div(class='site-wrapper')
-			nav(class='container-fluid')
-				ul(class='nav row')
-					div(class='logo col-md-4')
-						img(src='images/logo-white.svg')
-					div  
-
+			div(class='header container-fluid')
+				ul(class='row')
+					div(class='logo col-md-3')
+						a(href='/')
+							img(src='images/logo-white.svg')
+					div(class='col-md-5')
+						nav(id="nav-bar")
+							nav(id="nav-links")
+								a(href='/timeline') Timeline
+								a(href='/funfacts') Fun Facts
+					div(class='col-md-4 tagline')
+						p We are all immigrants.
 			block content
 		script(src='https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js')
 		script(src='js/main.js')
