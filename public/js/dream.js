@@ -13,14 +13,14 @@ $(document).ready(function () {
     //circleColor: use @default
     data: {
       items: [
-        {text: "To start/run my own company", count: "4"},
+        {text: "Start my own company", count: "4"},
         {text: "To help others", count: "4"},
-        {text: "To be a director and Oscar winner", count: "1"},
+        {text: "To be an Oscar winner", count: "1"},
         {text: "To be President", count: "1"},
-        {text: "To go to Mars", count: "1"},
-        {text: "To pass immigration reform", count: "1"},
-        {text: "To take a shower", count: "1"},
-        {text: "To get a job", count: "1"},
+        {text: "Go to Mars", count: "1"},
+        {text: "Immigration reform", count: "1"},
+        {text: "Take a shower", count: "1"},
+        {text: "Get a job", count: "1"},
         {text: "Other", count: "4"}
       ],
       eval: function (item) {return item.count;},
