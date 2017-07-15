@@ -71,7 +71,7 @@ $(document).ready(function () {
               textField: "text",
               classed: {text: true},
               style: {
-                "font-size": "14px",
+                "font-size": "12px",
                 "font-family": "franklin-gothic-urw, sans-serif",
                 "text-anchor": "middle",
                 fill: "white"
