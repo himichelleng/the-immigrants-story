@@ -13,15 +13,18 @@ $(document).ready(function () {
     //circleColor: use @default
     data: {
       items: [
-        {text: "Java", count: "236"},
-        {text: ".Net", count: "382"},
-        {text: "Php", count: "170"},
-        {text: "Ruby", count: "123"},
-        {text: "D", count: "12"},
-        {text: "Python", count: "170"},
-        {text: "C/C++", count: "382"},
-        {text: "Pascal", count: "10"},
-        {text: "Something", count: "170"},
+        {text: "Chocolate", count: "4"},
+        {text: "Mint Chocolate Chip", count: "2"},
+        {text: "Butter Pecan", count: "2"},
+        {text: "Pistacchio", count: "1"},
+        {text: "Cookie Dough", count: "1"},
+        {text: "Vanilla", count: "2"},
+        {text: "Java Chip", count: "1"},
+        {text: "Oreo Ice Cream", count: "1"},
+        {text: "Caramel Cone", count: "1"},
+        {text: "Peach", count: "1"},
+        {text: "Chocolate Chip", count: "1"},
+        {text: "Something Weird!", count: "1"}
       ],
       eval: function (item) {return item.count;},
       classed: function (item) {return item.text.split(" ").join("");}
