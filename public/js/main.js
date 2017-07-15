@@ -1,5 +1,3 @@
 (function(){
-	$(".portrait-card").click(function(){
-		$(this).flip();
-		});
+	$(".portrait-card").flip();
 })();

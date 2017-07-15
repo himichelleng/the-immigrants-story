@@ -18,14 +18,33 @@ nav{
 }
 
 .portrait-card{
-	height: 300px;
+	height: 400px;
 }
 
 .portrait-card img{
 	width: 100%;
 	height: auto;
+    opacity: 0.5;
 }
 
+.profile-card{
+    background-color: #022140;
+    color: #fff;
+    position: absolute !important;
+    font-family: "franklin-gothic-urw",sans-serif;
+    padding: 20px;
+}
+
+
+.portrait-card img:hover{
+    opacity: 1;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 
 /*style for timeseries */
