@@ -1,0 +1,27 @@
+body {
+  font-size: 15px;
+  font-family: "franklin-gothic-urw",sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.logo img{
+	 height: 80px;
+}
+
+nav{
+	background-color: #022140;
+}
+
+.portrait-card{
+	height: 300px;
+}
+
+.portrait-card img{
+	width: 100%;
+	height: auto;
+}

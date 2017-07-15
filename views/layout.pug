@@ -1,0 +1,23 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/css/style.css')
+		link(rel='stylesheet', href='/css/bootstrap.min.css')
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		script(src='https://use.typekit.net/rfj2kyl.js')
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	body
+		div(class='site-wrapper')
+			nav(class='container-fluid')
+				ul(class='nav row')
+					div(class='logo col-md-4')
+						img(src='images/logo-white.svg')
+
+			block content
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+		script(src='js/bootstrap.min.js')
+		script(src='https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js')
+		script(src='js/main.js')

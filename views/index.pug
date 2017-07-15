@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	div(class='portraits-grid container-fluid')
+		div(class='row')
+			div(class='portrait-card col-md-4')
+				div(class='front')
+					img(src='images/portraits/jackie.jpg')
+				div(class='profile-card back')
+					h1= title
+					p Welcome to #{title}
+				
